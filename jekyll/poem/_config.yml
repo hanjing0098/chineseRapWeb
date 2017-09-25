@@ -1,0 +1,13 @@
+# Site settings
+title: Hafez
+email: xingshi@usc.edu
+description: "Generate Topical Poetry"
+#baseurl: "/poem/"
+#baseurl: "file:///Users/xingshi/Workspace/misc/lstm/poem/jekyll/poem/_site/"
+#url: "http://192.168.254.1"
+url: "MBENBEN-PC"
+port: 10010
+
+# Build settings
+markdown: kramdown
+permalink: pretty
