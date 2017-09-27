@@ -1,0 +1,51 @@
+<div id="footer">
+  <div class="container">
+    <p class="text-muted">Credit <a href="http://www.isi.edu/people/xingshi/about">Xing Shi</a>, <a href="#">Jing Han</a>. Last updated at September 23, 2017</p>
+  </div>
+</div>
+
+<script src="{{ '/data/js/header.js' | prepend: site.baseurl }}"></script>
+
+{% if page.url == '/index.html' or page.url == '/' %}
+	<script src="{{ '/data/js/star.js' | prepend: site.baseurl }}"></script>
+        <script src="{{ '/data/js/poem.js' | prepend: site.baseurl }}"></script>
+	<script src="{{ '/data/quote/quote.js' | prepend: site.baseurl }}"></script>
+{% endif %}
+
+
+
+{% if page.url == '/advance/'%}
+	<script src="{{ '/data/js/star.js' | prepend: site.baseurl }}"></script>
+	<script src="{{ '/data/js/poem_menu.js' | prepend: site.baseurl }}"></script>
+
+        <script src="{{ '/data/js/poem_advance.js' | prepend: site.baseurl }}"></script>
+
+
+
+{% endif %}
+
+
+{% if page.url == '/interactive/' %}
+        <script src="{{ '/data/js/poem_interactive_advance.js' | prepend: site.baseurl }}"></script>
+        
+	<script>
+	 $(function () {
+	   $('[data-toggle="tooltip"]').tooltip()
+	 })
+	</script>
+
+{% endif %}
+
+
+{% if page.url == '/rhyme/' %}
+	<script src="{{ '/data/js/star.js' | prepend: site.baseurl }}"></script>
+        <script src="{{ '/data/js/poem_rhyme.js' | prepend: site.baseurl }}"></script>
+        
+	<script>
+	 $(function () {
+	   $('[data-toggle="tooltip"]').tooltip()
+	 })
+	</script>
+
+{% endif %}
+
