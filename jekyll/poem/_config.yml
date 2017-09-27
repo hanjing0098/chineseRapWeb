@@ -1,12 +1,10 @@
 # Site settings
-title: Hafez
+title: Chinese Rap
 email: xingshi@usc.edu
 description: "Generate Topical Poetry"
-#baseurl: "/poem/"
-#baseurl: "file:///Users/xingshi/Workspace/misc/lstm/poem/jekyll/poem/_site/"
-#url: "http://192.168.254.1"
-url: "MBENBEN-PC"
-port: 10010
+
+baseurl: "http://52.24.230.241/rap/"
+url: "http://52.24.230.241/rap/"
 
 # Build settings
 markdown: kramdown
