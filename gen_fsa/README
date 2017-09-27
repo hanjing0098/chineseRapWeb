@@ -1,0 +1,8 @@
+chinese Rap
+1.basic function of this project
+-- give one topic word in chinese, we will give you several 
+-- sentence of songs in Rap
+2.advance function
+-- 1.support more complicated rhyme patterns
+-- 2.build a web and accept feedback of users, then adjust 
+--   parameters of our system to polish the Rap 
